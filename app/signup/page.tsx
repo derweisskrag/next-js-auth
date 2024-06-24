@@ -40,7 +40,9 @@ export default function SignUp(){
                             </Button>
                             <div className={"my-5 flex items-center justify-between"}>
                                 Already have an account?
-                                <Link href={"/login"}>
+                                <Link
+                                    href={"/login"}
+                                    className={"/login border-2 border-blue-300 rounded-md"}>
                                     Login
                                 </Link>
                             </div>

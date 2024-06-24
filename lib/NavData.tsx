@@ -3,7 +3,12 @@ import {FaHome} from "react-icons/fa";
 import {FcAbout} from "react-icons/fc";
 import { MdMovieFilter } from "react-icons/md";
 import { IoLogOutOutline } from "react-icons/io5";
+import {Image} from "@nextui-org/react";
 export const navItems: NavProps[] = [
+    {
+        title: "Tallinn Theatre",
+        src: "/logo.png"
+    },
     {
         title: "Home",
         href: "/",
@@ -21,7 +26,7 @@ export const navItems: NavProps[] = [
     },
     {
         title: "Log Out",
-        href: "/api/auth/signout",
+        href: "/logout",
         icon: <IoLogOutOutline />
     }
 ];
